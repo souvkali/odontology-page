@@ -91,3 +91,7 @@ main {
   color: #ffc107;
   background: #fff;
 }
+
+.card-ancho-ampliado {
+  max-width: 550px; /* Ajusta este valor según tus necesidades */
+}
