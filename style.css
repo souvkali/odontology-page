@@ -92,6 +92,8 @@ main {
   background: #fff;
 }
 
-.card-ancho-ampliado {
-  max-width: 550px; /* Ajusta este valor según tus necesidades */
+.service-image {
+  width: 100%; /* Esto hará que la imagen ocupe el 100% del ancho de la tarjeta */
+  height: 200px; /* Puedes ajustar esto según lo que necesites */
+  object-fit: cover; /* Esto asegurará que la imagen cubra completamente el área definida sin distorsionarse */
 }
