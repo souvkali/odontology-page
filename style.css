@@ -13,6 +13,50 @@
   transform: translateY(50%);
 }
 
+.carousel-item {
+  transition: transform 1s ease-in-out;
+}
+
+/* Estilo base para la leyenda del carrusel */
+.carousel-caption {
+  bottom: 20%; /* Ajusta según sea necesario */
+  transform: translateY(-50%);
+  text-align: center; /* Centra el texto */
+}
+
+/* Tamaños de fuente responsivos */
+.carousel-caption h5 {
+  font-size: 1.5rem; /* Tamaño base para pantallas grandes */
+}
+
+.carousel-caption p {
+  font-size: 1rem; /* Tamaño base para pantallas grandes */
+}
+
+/* Botón */
+.btn-warning {
+  font-size: 1rem; /* Ajusta el tamaño del texto del botón */
+  padding: 0.5rem 1rem; /* Ajusta el padding del botón */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.2rem; /* Tamaño más pequeño para h5 */
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem; /* Tamaño más pequeño para p */
+  }
+
+  .btn-warning {
+    font-size: 0.9rem; /* Tamaño más pequeño para el botón */
+    padding: 0.4rem 0.8rem; /* Padding más pequeño */
+  }
+}
+
+/* Puedes añadir más media queries para diferentes rangos de tamaño si es necesario */
+
 hr {
   color: yellow;
 }
@@ -45,11 +89,6 @@ main {
 .nav-link:hover {
   text-decoration: underline;
   color: #007bff; /* Cambia esto por el color deseado */
-}
-
-/* transicion carrusel */
-.carousel-item {
-  transition: transform 1s ease-in-out;
 }
 
 /* efecto card */
@@ -96,4 +135,8 @@ main {
   width: 100%; /* Esto hará que la imagen ocupe el 100% del ancho de la tarjeta */
   height: 200px; /* Puedes ajustar esto según lo que necesites */
   object-fit: cover; /* Esto asegurará que la imagen cubra completamente el área definida sin distorsionarse */
+}
+
+.rounded-iframe {
+  border-radius: 15px; /* Ajusta el radio según prefieras */
 }
