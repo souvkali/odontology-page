@@ -17,45 +17,39 @@
   transition: transform 1s ease-in-out;
 }
 
-/* Estilo base para la leyenda del carrusel */
 .carousel-caption {
-  bottom: 20%; /* Ajusta según sea necesario */
+  bottom: 20%;
   transform: translateY(-50%);
-  text-align: center; /* Centra el texto */
+  text-align: center;
 }
 
-/* Tamaños de fuente responsivos */
 .carousel-caption h5 {
-  font-size: 1.5rem; /* Tamaño base para pantallas grandes */
+  font-size: 1.5rem;
 }
 
 .carousel-caption p {
-  font-size: 1rem; /* Tamaño base para pantallas grandes */
+  font-size: 1rem;
 }
 
-/* Botón */
 .btn-warning {
-  font-size: 1rem; /* Ajusta el tamaño del texto del botón */
-  padding: 0.5rem 1rem; /* Ajusta el padding del botón */
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
 }
 
-/* Media queries para pantallas más pequeñas */
 @media (max-width: 768px) {
   .carousel-caption h5 {
-    font-size: 1.2rem; /* Tamaño más pequeño para h5 */
+    font-size: 1.2rem;
   }
 
   .carousel-caption p {
-    font-size: 0.9rem; /* Tamaño más pequeño para p */
+    font-size: 0.9rem;
   }
 
   .btn-warning {
-    font-size: 0.9rem; /* Tamaño más pequeño para el botón */
-    padding: 0.4rem 0.8rem; /* Padding más pequeño */
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
   }
 }
-
-/* Puedes añadir más media queries para diferentes rangos de tamaño si es necesario */
 
 hr {
   color: yellow;
@@ -64,20 +58,20 @@ hr {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Altura mínima de viewport */
-  margin-top: 80px; /* Ajusta esto según la altura de tu navbar */
+  min-height: 100vh;
+  margin-top: 80px;
   font-family: "Red Hat Display", sans-serif;
 }
 
 main {
-  flex: 1; /* Permite que el contenido principal se expanda */
+  flex: 1;
 }
 
 .card-img-left {
-  width: 100%; /* Imagen a tamaño completo de su contenedor */
+  width: 100%;
 }
 .card-custom {
-  width: 100%; /* Ajusta este valor para cambiar el tamaño general de la tarjeta */
+  width: 100%;
 }
 
 /* transicion navbar */
@@ -85,30 +79,25 @@ main {
   transition: all 0.5s ease;
 }
 
-/* efecto hover */
 .nav-link:hover {
   text-decoration: underline;
-  color: #007bff; /* Cambia esto por el color deseado */
+  color: #007bff;
 }
 
-/* efecto card */
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* transicion botones */
 .btn-outline-warning:hover {
   background-color: #ffc107;
   color: white;
 }
 
-/* animacion footer */
 .bi:hover {
   transform: scale(1.1);
 }
 
-/* boton wsp */
 .btn-wsp {
   position: fixed;
   width: 55px;
@@ -132,11 +121,11 @@ main {
 }
 
 .service-image {
-  width: 100%; /* Esto hará que la imagen ocupe el 100% del ancho de la tarjeta */
-  height: 200px; /* Puedes ajustar esto según lo que necesites */
-  object-fit: cover; /* Esto asegurará que la imagen cubra completamente el área definida sin distorsionarse */
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .rounded-iframe {
-  border-radius: 15px; /* Ajusta el radio según prefieras */
+  border-radius: 15px;
 }
